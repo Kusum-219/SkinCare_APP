@@ -30,7 +30,7 @@ class _myAppState extends State<myApp> {
   void startTimer() {
     Timer(Duration(seconds: 7), () {
       Navigator.push(context, MaterialPageRoute(
-          builder: (context) => haircare() ));
+          builder: (context) => HomeScreen() ));
     });
   }
   @override

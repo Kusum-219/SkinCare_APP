@@ -7,6 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       backgroundColor: Colors.pinkAccent.shade100,
       appBar: AppBar(
         title: Text(
@@ -39,10 +40,12 @@ class HomeScreen extends StatelessWidget {
                         ),
                         radius: 3,
                       ),
+
                       decoration : BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
                         color: Colors.pink.shade500,
                       ),
+
                     ),
 
                     Padding(
